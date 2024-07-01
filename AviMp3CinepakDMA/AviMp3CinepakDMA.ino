@@ -19,6 +19,7 @@ extern "C"
 #include <avilib.h>
 }
 
+#include "es8311.h"
 #include "AD35_S3_PINS.h"
 
 #include "cinepak.h"

@@ -35,8 +35,7 @@ Arduino_GFX *gfx = new Arduino_ST7796(bus, GFX_NOT_DEFINED /* RST */, 3 /* rotat
 #define TOUCH_RES -1
 #define TOUCH_INT 7
 
-// audio
-#include "es8311.h"
+// audio /* add #include "es8311.h" before include this header */
 #define I2S_DOUT 12
 #define I2S_DIN 13
 #define I2S_BCLK 21
